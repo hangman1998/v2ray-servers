@@ -1,0 +1,28 @@
+mixed-port: 7890
+allow-lan: false
+external-controller: 127.0.0.1:10429
+secret: e38e1306-5e77-49eb-bcde-4cd7332dcadb
+proxies:
+  - type: ss
+    name: ❤️
+    server: 193.39.9.127
+    port: "40000"
+    cipher: aes-256-gcm
+    password: mahsa-amini
+    _index: 0
+  - type: ss
+    name: ❤️❤️
+    server: 193.39.9.127
+    port: "40001"
+    cipher: aes-256-gcm
+    password: newoder1886@@
+  - name: 🐿️
+    type: vmess
+    server: fandogh.yousefjavaherian.ir
+    port: "80"
+    uuid: 75e01251-3453-44af-9c5d-81d98d9521da
+    alterId: "0"
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /ws
